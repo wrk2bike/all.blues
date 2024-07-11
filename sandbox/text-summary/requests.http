@@ -1,4 +1,4 @@
-POST https://SAMPLE-APP.execute-api.us-east-1.amazonaws.com/prod/text?points=3
+POST https://f1m5nyfj80.execute-api.us-east-1.amazonaws.com/prod/text?points=1
 content-Type: application/json
 
 {

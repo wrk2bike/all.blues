@@ -19,7 +19,8 @@ export async function handler(event: APIGatewayProxyEvent, context: Context): Pr
                 modelId: 'amazon.titan-text-express-v1',
                 body: JSON.stringify(titanConfig),
                 accept: 'application/json',
-                contentType: 'application/json'
+                contentType: 'application/json',
+                
             }));
             const responseBody = JSON.parse(new TextDecoder().decode(response.body));
             const firstResult = responseBody.results[0];
