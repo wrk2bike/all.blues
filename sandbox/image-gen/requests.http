@@ -1,7 +1,7 @@
-POST https://oojtn5d4h3.execute-api.eu-west-1.amazonaws.com/prod/image
+POST https://SAMPLE_APP.execute-api.us-east-1.amazonaws.com/prod/image
 content-Type: application/json
 
 {
-    "description": "a cat on a mountain"
+    "description": "an apple on a picnic table"
 }
 ###
