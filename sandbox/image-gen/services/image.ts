@@ -3,7 +3,7 @@ import { PutObjectCommand, S3Client, GetObjectCommand } from "@aws-sdk/client-s3
 import { APIGatewayProxyEvent, APIGatewayProxyResult, Context } from "aws-lambda";
 import { getSignedUrl } from '@aws-sdk/s3-request-presigner'
 
-const AWS_REGION_BEDROCK = "us-west-2";
+const AWS_REGION_BEDROCK = "us-east-1";
 const S3_BUCKET = process.env.BUCKET_NAME
 
 const client = new BedrockRuntimeClient({ region: AWS_REGION_BEDROCK });

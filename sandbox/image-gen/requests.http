@@ -1,7 +1,7 @@
-POST https://SAMPLE_APP.execute-api.us-east-1.amazonaws.com/prod/image
+POST https://{{image_gen_api_endpoint}}/prod/image
 content-Type: application/json
 
 {
-    "description": "an apple on a picnic table"
+    "description": "a pear on a picnic table, dark moody image"
 }
 ###
